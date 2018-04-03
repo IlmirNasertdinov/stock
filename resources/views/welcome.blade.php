@@ -28,11 +28,6 @@
 				</tr>
 				@endforeach
 			</table>
-			<h1>dfgdfgdfg</h1>
-			<pre>
-			<?php print_r($data['stock']); ?>
-			</pre>
-			<h1>xcvbvc</h1>
 		</div>
 		<button class="btn btn-primary update">Обновить</button>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
