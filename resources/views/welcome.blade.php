@@ -36,9 +36,8 @@
 				headers: {
 					'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
 				}
-             });
+                        });
 			function doSomething() {
-				alert('xccv');
 				$.ajax({
 					headers: {
 					  'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
@@ -56,7 +55,7 @@
 				setTimeout(doSomething, 15000);	
 			}
 			doSomething();
-			$('.update').on('click', function doSomething() {
+			$('.update').on('click', function() {
 				$.ajax({
 					headers: {
 					  'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
